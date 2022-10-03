@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sighup</title>
+</head>
+<body>
+    <form action="sighup" method="post">
+    {% csrf_token %}
+
+    <input type="text"  Name="First Name" placeholder="First Name"><br>
+    <input type="text"  Name=" Last Name" placeholder="Last Name"><br>
+    <input type="image"  scr="Profilepicture" alt="Submit" width="48" height=""48><br>
+    <input type="text" Name="User Name" placeholder="User Name"><br>
+    <input type="email" Name="Email ID" placeholder="Email ID"><br>
+    <input type="text"  Name="Password1" placeholder="Password"><br>
+    <input type="text"  Name="Password2" placeholder="Confirm Password"><br>
+    <input type="text" Name="address"  aria-placeholder="line1,city,state,pincode">
+    <input type="Submit">
+
+</form>
+    
+</body>
+</html>
